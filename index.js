@@ -118,7 +118,6 @@ function processSum(numberList, callback) {
 */
 function processProduct(num1, num2, callback) {
   return callback (num1 * num2);
-
   /* CODE HERE */
 }
 
@@ -142,7 +141,8 @@ function processProduct(num1, num2, callback) {
  * "lady gaga" and `['foo', 'bar']` and `(bool) => bool ? 'nice!' : 'sad'`,
  * should return "sad".
 */
-function processContains(/* CODE HERE */) {
+function processContains(item, list, callback) {
+  return callback (list.includes(item));
   /* CODE HERE */
 }
 
